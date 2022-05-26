@@ -29,7 +29,7 @@ const Sakura = styled.ul`
 
 const Petal = styled.li`
   position: absolute;
-  z-index: 1;
+  z-index: 3;
   list-style: none;
   top: -50px;
   background: var(--main-pink);

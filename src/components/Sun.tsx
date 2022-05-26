@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-const RedSun = () => {
+const RedSun = ({ loader }: { loader: boolean}) => {
   return (
     <SunContainer>
-      <Sun/>
+      <Sun loader={loader}/>
     </SunContainer>
   );
 };
@@ -12,6 +12,10 @@ const RedSun = () => {
 const SunContainer = styled.div`
   height: 100vh;
   width: 100%;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
 `;
 
 const Sun = styled.div`
@@ -25,6 +29,8 @@ const Sun = styled.div`
   left: 35%;
   top: 25%;
   z-index: 1;
+
+  animation: ${(props: {loader: boolean }) => props.loader ? "upsun 2s ease" : "none"};
 `;
 
 export default RedSun;

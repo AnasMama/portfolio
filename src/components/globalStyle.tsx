@@ -8,21 +8,21 @@ import {
     * {
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 800;
+      font-family: 'Knewave', cursive;
+      font-weight: 400;
       text-align: center;
-      --main-black: #06070E;
+      --main-black: #1c1a1a;
       --main-pink: #FF9FB2;
+      --second-pink: #FF5C7C;
       --main-yellow: #FFF9EB;
-      --main-blue: #247BA0;
+      --main-blue: #1f3042;
+      --second-blue: #61A0AF;
     }
     
     body {
       font-weight: bold;
       background: var(--main-yellow);
-      /* background: linear-gradient(to bottom, var(--main-yellow) 0%,var(--main-pink) 100%); */
       width: 100vw;
-      /* min-height: 100vh; */
       margin: 0;
       padding: 0;
       color: var(--main-blue);
