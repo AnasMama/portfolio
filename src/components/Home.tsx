@@ -12,13 +12,13 @@ const Home = () => {
   }, []);
   return (
     <HomeContainer>
-      <Cloud src="images/cloud.png" alt="nuage" />
-      <Cloud src="images/cloud.png" alt="nuage" />
-      <Cloud src="images/cloud.png" alt="nuage" />
-      <Cloud src="images/cloud.png" alt="nuage" />
-      <WaveBack src="images/wave-back.png" alt="vagues" loader={loader} />
+      <Cloud src="/ressources/images/cloud.png" alt="nuage" />
+      <Cloud src="/ressources/images/cloud.png" alt="nuage" />
+      <Cloud src="/ressources/images/cloud.png" alt="nuage" />
+      <Cloud src="/ressources/images/cloud.png" alt="nuage" />
+      <WaveBack src="/ressources/images/wave-back.png" alt="vagues" loader={loader} />
       <WaveFront
-        src="/images/wave-front.png"
+        src="ressources/images/wave-front.png"
         alt="vagues"
         loader={loader}
       />
@@ -37,7 +37,7 @@ const HomeContainer = styled.div`
   );
 
   @media (max-width: 1200px) {
-    background-image: url("/images/home.jpeg");
+    background-image: url("ressources/images/home.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
