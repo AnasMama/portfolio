@@ -80,19 +80,15 @@ const NavSite: any = styled.div`
   width: 30%;
 
   @media (max-width: 1271px) {
-    /* overflow: hidden; */
     background-color: var(--second-pink);
-    /* border-radius: 10%; */
     position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
-    /* align-content: flex-end; */
     display: ${({ isOpen }: { isOpen: string }) => (isOpen ? "flex" : "none")};
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    /* max-height: ${({ isOpen }) => (isOpen ? "800px" : "0")}; */
     transition: 0.3s ease-in;
   }
 `;

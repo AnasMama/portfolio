@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Description = () => {
   return (
     <div>
-      <Decors src="/src/images/salon2.png" alt="Gong" />
+      <Decors src="ressources/images/salon2.png" alt="Gong" />
       <Presentation>
         Hello ! Je m'appelle Anas MAMA. Je suis développeur web full-stack
         domicilié à Toulouse. Dans ce portfolio, je vous présente mes quelques

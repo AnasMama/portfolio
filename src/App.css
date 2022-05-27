@@ -10,12 +10,6 @@ html {
   }
 }
 
-/* @keyframes run {
-  to {
-    right: 120%;
-  }
-} */
-
 @keyframes sway1 {
   from {
     transform: translateX(0px) rotate(0deg);

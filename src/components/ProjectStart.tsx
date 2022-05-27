@@ -18,18 +18,18 @@ const ProjectStart = () => {
   }, [loader]);
   return (
     <ProjectContainer>
-      <Paper src="/src/images/paper.png" alt="Papier" />
+      <Paper src="ressources/images/paper.png" alt="Papier" />
       <Parchment
-        src="/src/images/parchment-left.png"
+        src="ressources/images/parchment-left.png"
         alt="Rouleau gauche"
         close={35}
       />
       <Parchment
-        src="/src/images/parchment-right.png"
+        src="ressources/images/parchment-right.png"
         alt="Rouleau droit"
         close={-35}
       />
-      <Dragon src="/src/images/dragon-tatoo.png" alt="Dragon" />
+      <Dragon src="ressources/images/dragon-tatoo.png" alt="Dragon" />
     </ProjectContainer>
   );
 };

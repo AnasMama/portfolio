@@ -22,10 +22,10 @@ const Contact = () => {
 
   return (
     <ContactContainer>
-      <Decors src="/src/images/fuji.png" alt="Mont Fuji" />
-      <Decors src="/src/images/tori.png" alt="Temple japonais" />
-      <Decors src="/src/images/sakura.png" alt="Branche de sakura" />
-      <Decors src="/src/images/lake.png" alt="Lac" />
+      <Decors src="ressources/images/fuji.png" alt="Mont Fuji" />
+      <Decors src="ressources/images/tori.png" alt="Temple japonais" />
+      <Decors src="ressources/images/sakura.png" alt="Branche de sakura" />
+      <Decors src="ressources/images/lake.png" alt="Lac" />
       <Sakura />
         <h1>Contactez-moi !</h1>
       <RightContainer>

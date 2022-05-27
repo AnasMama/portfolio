@@ -19,52 +19,51 @@ const Presentation = () => {
   return (
     <DojoContainer>
       <Decors
-        src="/src/images/dojo-back.png"
+        src="ressources/images/dojo-back.png"
         alt="Dojo"
         openDoor={0}
         scale={1}
         scaleAfter={1.25}
       />
       <Decors
-        src="/src/images/salon2.png"
+        src="ressources/images/salon2.png"
         alt="Gong"
         openDoor={0}
         scale={1}
         scaleAfter={1.25}
       />
-      {/* <Decors src="/src/images/lamp.png" alt="Gong" openDoor={0} scale={1} scaleAfter={1.25} /> */}
       <Doors
-        src="/src/images/dojo-left.png"
+        src="ressources/images/dojo-left.png"
         alt="Porte gauche du dojo supérieur"
         openDoor={-30}
         scale={1.15}
       />
       <Doors
-        src="/src/images/dojo-right.png"
+        src="ressources/images/dojo-right.png"
         alt="Porte droite du dojo supérieur"
         openDoor={30}
         scale={1.15}
       />
       <Doors
-        src="/src/images/dojo-left.png"
+        src="ressources/images/dojo-left.png"
         alt="Porte gauche du dojo inférieur"
         openDoor={-20}
         scale={1.12}
       />
       <Doors
-        src="/src/images/dojo-right.png"
+        src="ressources/images/dojo-right.png"
         alt="Porte droite du dojo inférieur"
         openDoor={20}
         scale={1.12}
       />
       <Doors
-        src="/src/images/dojo-left.png"
+        src="ressources/images/dojo-left.png"
         alt="Porte gauche du dojo inférieur"
         openDoor={-20}
         scale={1.1}
       />
       <Doors
-        src="/src/images/dojo-right.png"
+        src="ressources/images/dojo-right.png"
         alt="Porte droite du dojo inférieur"
         openDoor={20}
         scale={1.1}
@@ -74,7 +73,6 @@ const Presentation = () => {
 };
 
 const DojoContainer = styled.div`
-  /* background-image: url('/src/images/sakura-branch.png'); */
   background: var(--main-yellow);
   background-repeat: no-repeat;
   position: relative;

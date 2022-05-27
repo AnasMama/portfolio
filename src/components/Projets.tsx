@@ -13,7 +13,7 @@ const projetsList: Project[] = [
   {
     id: 0,
     name: "Espacito",
-    image: "/src/images/espacito.jpeg",
+    image: "ressources/images/espacito.jpeg",
     description:
       "Application de découverte de l'espace. Vous y découvrirez quelques informations sur la navette de l'ISS (géolocalisation, équipe à bord en temps réel, altitude...) ainsi que des fonctionnalités ludiques comme un jeu FlapISS ou la découverte de la photo du jour de la naza.",
     link: "https://tlse0921-js-p2-espacito-six.vercel.app/"
@@ -21,21 +21,21 @@ const projetsList: Project[] = [
   {
     id: 1,
     name: "Lyrics Guesser",
-    image: "/src/images/lyricsguessr.jpeg",
+    image: "ressources/images/lyricsguessr.jpeg",
     description: "Blind test un peu particulier ! Une voix vous lit les paroles d'une dizaine de chansons connues. Votre mission est de retrouver son titre et l'artiste qui se cache derrière.",
     link: "https://tlse0921-js-p2-espacito-six.vercel.app/"
   },
   {
     id: 2,
     name: "Business Plan Canvas",
-    image: "/src/images/bp-canvas.jpeg",
+    image: "ressources/images/bp-canvas.jpeg",
     description: "Application développée pour l'entreprise BouDu Concept permetant de réaliser le canva d'un business plan très simplement.",
     link: ""
   },
   {
     id: 3,
     name: "What's the movie ?",
-    image: "/src/images/whats-the-movie.jpeg",
+    image: "ressources/images/whats-the-movie.jpeg",
     description: "Jeu de quizz. Une affiche de film vous aie présentée. Le problème est qu'elle est floutée. Saurez-vous retouver le nom du film ?",
     link: "https://github.com/AnasMama/frontend-whats-the-movie"
   },
@@ -56,11 +56,11 @@ const Projets = () => {
 
   return (
     <ProjectContainer>
-      <Decors src="/src/images/dragon.png" alt="Branche de sakura" />
+      <Decors src="ressources/images/dragon.png" alt="Branche de sakura" />
       <RightContainer>
         <ProjetSelector>
           <Arrow
-            src="/src/images/arrow.png"
+            src="ressources/images/arrow.png"
             alt="Fleche de navigation"
             onClick={() =>
               index > 0 ? setIndex(index - 1) : setIndex(projetsList.length - 1)
@@ -70,7 +70,7 @@ const Projets = () => {
           <Img src={projet.image} alt="Porjet" />
           </a>
           <Arrow
-            src="/src/images/arrow.png"
+            src="ressources/images/arrow.png"
             alt="Fleche de navigation"
             role="true"
             onClick={() =>

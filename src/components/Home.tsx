@@ -12,11 +12,11 @@ const Home = () => {
   }, []);
   return (
     <HomeContainer>
-      <Cloud src="/ressources/images/cloud.png" alt="nuage" />
-      <Cloud src="/ressources/images/cloud.png" alt="nuage" />
-      <Cloud src="/ressources/images/cloud.png" alt="nuage" />
-      <Cloud src="/ressources/images/cloud.png" alt="nuage" />
-      <WaveBack src="/ressources/images/wave-back.png" alt="vagues" loader={loader} />
+      <Cloud src="ressources/images/cloud.png" alt="nuage" />
+      <Cloud src="ressources/images/cloud.png" alt="nuage" />
+      <Cloud src="ressources/images/cloud.png" alt="nuage" />
+      <Cloud src="ressources/images/cloud.png" alt="nuage" />
+      <WaveBack src="ressources/images/wave-back.png" alt="vagues" loader={loader} />
       <WaveFront
         src="ressources/images/wave-front.png"
         alt="vagues"
